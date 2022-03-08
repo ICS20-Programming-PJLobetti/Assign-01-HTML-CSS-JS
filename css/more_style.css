@@ -1,0 +1,20 @@
+/* Created by: PJ Lobetti
+* Created on: Mar 20222
+* This CSS file defines the style for index.html
+* ICS20-Assign-01-HTML-CSS
+*/
+body {
+  background-color: seashell;
+}
+h1 {
+  background-color: rgb(235, 221, 226);
+  color: hsl(27.3°, 18, 23.9);
+  padding: 40px;
+  text-align: center;
+}
+h3 {
+  background-color: rgb(235, 221, 226);
+  color: hsl(27.3°, 18, 23.9);
+  padding: 40px;
+  text-align: center;
+}
