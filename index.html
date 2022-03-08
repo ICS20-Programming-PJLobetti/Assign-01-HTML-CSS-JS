@@ -7,10 +7,11 @@
     <meta name="keyword" content="mths, ics2o">
     <meta name="author" content="P.J. Lobetti">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>My Love and Apprecitation For Art.</title>
      <!-- Google's MDL -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-light_green.min.css"/>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-cyan.min.css"/>
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script> 
     <!-- For the favicon on this page -->
     <link rel="apple-touch-icon.png" sizes="192x192" href="./Copic_index/apple-touch-icon.png">
@@ -18,10 +19,66 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./Copic_index/favicon-16x16.png">
     <link rel="manifest" href="./Copic_index/site.webmanifest">
   </head>
-    <!-- My First piece of text -->
+    <!-- My text -->
   <body>
-    <h1><center>The Beauty Of Art Supplies</center></h1>
+    <h1><center>The Beauty Of Art</center></h1>
     <p><center>My love for art started around the first grade. Drawing and coloring were taught in class and it was one of the things I would look forward to doing every day. This Kept growing, and by the 5th Grade I was dfrawing people and characters in a semi-realistic manner. My mo was a huge influence on me because she's an artist and seeing her paint and draw all the time, it made me want to be just like her. She would help me develope my skills and give me the motivation to keep drawing. She kept me motivate to continue giving it my all. I would continue to draw until grade nine. I would stop drawing becxause I really just lost my interest in it. But recently I've been trying ti reconnect with my more artistic side of my personality.</center></p>
     <h3><center>Here's A few Of My Drawings From Past Years:</center></h3>
-  </body>
-   
+    <!-- Google's MDL -->
+		<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+		
+    <div class = "mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			
+			<!-- MDL header -->
+      <header class = "mdl-layout__header">
+        <div class = "mdl-layout__header-row">      
+          <span class = "mdl-layout-title">My Favorite Art Supplies Brands</span>         
+        </div>       
+      </header>
+			<!-- MDL Progress Bar with Indeterminate Progress -->
+			<div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
+
+			<!-- Container for web page content -->
+			<main class = "mdl-layout__content" style = "padding-left:20px">
+
+				<!-- List -->
+				<h5>My Favorite Brands For Art Supplies:</h5>
+				<ul class="demo-list-item mdl-list">
+				  <li class="mdl-list__item">
+				    <span class="mdl-list__item-primary-content">
+				      <a href="https://copic.jp/en/product/sketch/">Copic</a>.
+				    </span>
+				  </li>
+				  <li class="mdl-list__item">
+				    <span class="mdl-list__item-primary-content">
+				      <a href="https://www.posca.com/en/">Posca</a>.
+				    </span>
+				  </li>
+				  <li class="mdl-list__item">
+				    <span class="mdl-list__item-primary-content">
+				      <a href="https://www.chameleonart.com/">Chameleon Arts</a>.
+				    </span>
+				  </li>
+        </ul>
+
+        
+			<!-- Second MDL header -->
+      <header class = "mdl-layout__header">
+        <div class = "mdl-layout__header-row">      
+          <span class = "mdl-layout-title">Which Brand Do You Like More?</span>         
+        </div>       
+      </header>
+      <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+  <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+  <span class="mdl-radio__label">Copic</span>
+</label>
+        
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+  <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+  <span class="mdl-radio__label">Posca</span>
+</label>
+        
+<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-3">
+  <input type="radio" id="option-3" class="mdl-radio__button" name="options" value="3">
+  <span class="mdl-radio__label">Chameleon Arts</span>
+</label>
